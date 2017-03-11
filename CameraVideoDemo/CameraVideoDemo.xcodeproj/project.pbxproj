@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DCC55D1E742748009B9F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC55C1E742748009B9F4A /* AppDelegate.m */; };
+		D2DCC5601E742748009B9F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC55F1E742748009B9F4A /* main.m */; };
+		D2DCC5621E742748009B9F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DCC5611E742748009B9F4A /* Assets.xcassets */; };
+		D2DCC5651E742748009B9F4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DCC5631E742748009B9F4A /* MainMenu.xib */; };
+		D2DCC5711E742889009B9F4A /* AMCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC5701E742889009B9F4A /* AMCTools.m */; };
+		D2DCC5761E742A67009B9F4A /* AMCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC5751E742A67009B9F4A /* AMCView.m */; };
+		D2DCC57A1E742AC5009B9F4A /* AMCNcCameraVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC5781E742AC5009B9F4A /* AMCNcCameraVideoViewController.m */; };
+		D2DCC57B1E742AC5009B9F4A /* AMCNcCameraVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DCC5791E742AC5009B9F4A /* AMCNcCameraVideoView.xib */; };
+		D2DCC57E1E742C91009B9F4A /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DCC57D1E742C91009B9F4A /* img.jpg */; };
+		D2DCC5851E74330A009B9F4A /* AMCNcStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC5841E74330A009B9F4A /* AMCNcStreamer.m */; };
+		D2DCC5881E743637009B9F4A /* AMCNcMjpegStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DCC5871E743637009B9F4A /* AMCNcMjpegStreamer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2DCC5581E742748009B9F4A /* CameraVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DCC55B1E742748009B9F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2DCC55C1E742748009B9F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2DCC55F1E742748009B9F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2DCC5611E742748009B9F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DCC5641E742748009B9F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2DCC5661E742748009B9F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DCC56E1E742889009B9F4A /* AMCObjCTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCObjCTools.h; path = "Obj-C Tools/AMCObjCTools.h"; sourceTree = "<group>"; };
+		D2DCC56F1E742889009B9F4A /* AMCTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCTools.h; path = "Obj-C Tools/AMCTools.h"; sourceTree = "<group>"; };
+		D2DCC5701E742889009B9F4A /* AMCTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMCTools.m; path = "Obj-C Tools/AMCTools.m"; sourceTree = "<group>"; };
+		D2DCC5741E742A67009B9F4A /* AMCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCView.h; path = "Obj-C Tools/AMCView.h"; sourceTree = "<group>"; };
+		D2DCC5751E742A67009B9F4A /* AMCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMCView.m; path = "Obj-C Tools/AMCView.m"; sourceTree = "<group>"; };
+		D2DCC5771E742AC5009B9F4A /* AMCNcCameraVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCNcCameraVideoViewController.h; path = "View and Controllers/AMCNcCameraVideoViewController.h"; sourceTree = "<group>"; };
+		D2DCC5781E742AC5009B9F4A /* AMCNcCameraVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMCNcCameraVideoViewController.m; path = "View and Controllers/AMCNcCameraVideoViewController.m"; sourceTree = "<group>"; };
+		D2DCC5791E742AC5009B9F4A /* AMCNcCameraVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AMCNcCameraVideoView.xib; path = "View and Controllers/AMCNcCameraVideoView.xib"; sourceTree = "<group>"; };
+		D2DCC57D1E742C91009B9F4A /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img.jpg; path = Resources/img.jpg; sourceTree = "<group>"; };
+		D2DCC5831E74330A009B9F4A /* AMCNcStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCNcStreamer.h; path = Models/AMCNcStreamer.h; sourceTree = "<group>"; };
+		D2DCC5841E74330A009B9F4A /* AMCNcStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMCNcStreamer.m; path = Models/AMCNcStreamer.m; sourceTree = "<group>"; };
+		D2DCC5861E743637009B9F4A /* AMCNcMjpegStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMCNcMjpegStreamer.h; path = Models/AMCNcMjpegStreamer.h; sourceTree = "<group>"; };
+		D2DCC5871E743637009B9F4A /* AMCNcMjpegStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMCNcMjpegStreamer.m; path = Models/AMCNcMjpegStreamer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DCC5551E742748009B9F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DCC54F1E742748009B9F4A = {
+			isa = PBXGroup;
+			children = (
+				D2DCC57C1E742C80009B9F4A /* Resources */,
+				D2DCC5721E7429F3009B9F4A /* MVCs */,
+				D2DCC56D1E742806009B9F4A /* Obj-C Tools */,
+				D2DCC55A1E742748009B9F4A /* Root Control */,
+				D2DCC5591E742748009B9F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DCC5591E742748009B9F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC5581E742748009B9F4A /* CameraVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DCC55A1E742748009B9F4A /* Root Control */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC55B1E742748009B9F4A /* AppDelegate.h */,
+				D2DCC55C1E742748009B9F4A /* AppDelegate.m */,
+				D2DCC5611E742748009B9F4A /* Assets.xcassets */,
+				D2DCC5631E742748009B9F4A /* MainMenu.xib */,
+				D2DCC5661E742748009B9F4A /* Info.plist */,
+				D2DCC55E1E742748009B9F4A /* Supporting Files */,
+			);
+			name = "Root Control";
+			path = CameraVideoDemo;
+			sourceTree = "<group>";
+		};
+		D2DCC55E1E742748009B9F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC55F1E742748009B9F4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2DCC56D1E742806009B9F4A /* Obj-C Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC5741E742A67009B9F4A /* AMCView.h */,
+				D2DCC5751E742A67009B9F4A /* AMCView.m */,
+				D2DCC56E1E742889009B9F4A /* AMCObjCTools.h */,
+				D2DCC56F1E742889009B9F4A /* AMCTools.h */,
+				D2DCC5701E742889009B9F4A /* AMCTools.m */,
+			);
+			name = "Obj-C Tools";
+			sourceTree = "<group>";
+		};
+		D2DCC5721E7429F3009B9F4A /* MVCs */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC5821E7432F4009B9F4A /* Abstract Classes */,
+				D2DCC5731E7429FC009B9F4A /* AMCNcCameraVideoView */,
+			);
+			name = MVCs;
+			sourceTree = "<group>";
+		};
+		D2DCC5731E7429FC009B9F4A /* AMCNcCameraVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC5771E742AC5009B9F4A /* AMCNcCameraVideoViewController.h */,
+				D2DCC5781E742AC5009B9F4A /* AMCNcCameraVideoViewController.m */,
+				D2DCC5791E742AC5009B9F4A /* AMCNcCameraVideoView.xib */,
+				D2DCC5861E743637009B9F4A /* AMCNcMjpegStreamer.h */,
+				D2DCC5871E743637009B9F4A /* AMCNcMjpegStreamer.m */,
+			);
+			name = AMCNcCameraVideoView;
+			sourceTree = "<group>";
+		};
+		D2DCC57C1E742C80009B9F4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC57D1E742C91009B9F4A /* img.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D2DCC5821E7432F4009B9F4A /* Abstract Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2DCC5831E74330A009B9F4A /* AMCNcStreamer.h */,
+				D2DCC5841E74330A009B9F4A /* AMCNcStreamer.m */,
+			);
+			name = "Abstract Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DCC5571E742748009B9F4A /* CameraVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DCC5691E742748009B9F4A /* Build configuration list for PBXNativeTarget "CameraVideoDemo" */;
+			buildPhases = (
+				D2DCC5541E742748009B9F4A /* Sources */,
+				D2DCC5551E742748009B9F4A /* Frameworks */,
+				D2DCC5561E742748009B9F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraVideoDemo;
+			productName = CameraVideoDemo;
+			productReference = D2DCC5581E742748009B9F4A /* CameraVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DCC5501E742748009B9F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Chang";
+				TargetAttributes = {
+					D2DCC5571E742748009B9F4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E66J44973E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2DCC5531E742748009B9F4A /* Build configuration list for PBXProject "CameraVideoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DCC54F1E742748009B9F4A;
+			productRefGroup = D2DCC5591E742748009B9F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DCC5571E742748009B9F4A /* CameraVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DCC5561E742748009B9F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DCC57B1E742AC5009B9F4A /* AMCNcCameraVideoView.xib in Resources */,
+				D2DCC5621E742748009B9F4A /* Assets.xcassets in Resources */,
+				D2DCC5651E742748009B9F4A /* MainMenu.xib in Resources */,
+				D2DCC57E1E742C91009B9F4A /* img.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DCC5541E742748009B9F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DCC5761E742A67009B9F4A /* AMCView.m in Sources */,
+				D2DCC5881E743637009B9F4A /* AMCNcMjpegStreamer.m in Sources */,
+				D2DCC5601E742748009B9F4A /* main.m in Sources */,
+				D2DCC55D1E742748009B9F4A /* AppDelegate.m in Sources */,
+				D2DCC57A1E742AC5009B9F4A /* AMCNcCameraVideoViewController.m in Sources */,
+				D2DCC5711E742889009B9F4A /* AMCTools.m in Sources */,
+				D2DCC5851E74330A009B9F4A /* AMCNcStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2DCC5631E742748009B9F4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DCC5641E742748009B9F4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DCC5671E742748009B9F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2DCC5681E742748009B9F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2DCC56A1E742748009B9F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66J44973E;
+				INFOPLIST_FILE = CameraVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AMC.CameraVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2DCC56B1E742748009B9F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66J44973E;
+				INFOPLIST_FILE = CameraVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AMC.CameraVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DCC5531E742748009B9F4A /* Build configuration list for PBXProject "CameraVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DCC5671E742748009B9F4A /* Debug */,
+				D2DCC5681E742748009B9F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DCC5691E742748009B9F4A /* Build configuration list for PBXNativeTarget "CameraVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DCC56A1E742748009B9F4A /* Debug */,
+				D2DCC56B1E742748009B9F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DCC5501E742748009B9F4A /* Project object */;
+}
